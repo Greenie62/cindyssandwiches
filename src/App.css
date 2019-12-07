@@ -1,0 +1,67 @@
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Death Star'
+}
+
+
+.home-header, .signin-header, .signin-footer{
+  text-align:center;
+  color:yellow;
+  background:black;
+  letter-spacing:3px;
+}
+
+ .container{
+  height:70vh;
+  background-image:url("./stars.jpg");
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+} 
+
+
+.signin-card, .starwars-card{
+  width:50%;
+  height:50%;
+  justify-content: center;
+  text-align:center;
+  
+  background:linear-gradient(to right,lightgray,silver,gray)
+}
+
+
+
+.signininput{
+  background:rgb(84, 84, 194);
+  color:rgb(106, 235, 106);
+  height:20px;
+
+}
+
+
+.navbar{
+  background:linear-gradient(to right,gray,rgb(84, 84, 194));
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+}
+
+.nav-links{
+  width:40%;
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+ 
+}
+
+.nav-link-item{
+  color:rgb(106, 235, 106);
+  text-decoration:none;
+}
+
+.light{
+  color:rgb(106, 235, 106);
+} */

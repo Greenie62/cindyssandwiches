@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:yellow;
+}
+
+.header{
+margin-left:15px;
+display:flex;
+align-items:center;
+justify-content: center;
+}
+
+.banner{
+    height:50px;
+    width:200px;
+}
+
+.navbar{
+    display:flex;
+    width:100%;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.nav-banner{
+    width:85px;
+    height:25px;
+    margin-left:25px;
+    
+}
+
+.navbar{
+    background:yellow;
+    border-bottom:2px solid white;
+}
+
+.nav-items-list{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    width:40%;
+   
+}
+
+.nav-item, .classic-item{
+    list-style:none;
+}
+
+.classic-item:nth-child(odd){
+    background:lightgray;
+}
+
+
+.classic-container, .shoppingcart-container{
+    width:30%;
+    outline:1px solid black;
+    float:right;
+    margin-right:50px;
+    transition:1s;
+    position:relative;
+   
+}
+
+.hide-classic-container, .hidecart{
+    float:right;
+    overflow:hidden;
+    height:0px;
+    width:0px;
+    transition:1s;
+    position:relative;
+}
+
+
+.meats-container, .cheese-container, .toppings-container, .bread-container{
+    height:30%;
+    align-items:center;
+    padding:.5em;
+    display:flex;
+    flex-direction:column;
+}
+ .products-body{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    width:100%;
+    /* flex-direction:column; */
+  
+}
+
+.highlight{
+    border:2px solid red;
+    pointer-events:all;
+}
+
+.meats-header, .cheese-header, .toppings-header, .bread-header{
+    text-align:center;
+    color:red;
+}
+
